@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNGx Stage One</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="img-wrapper">
+            <img 
+                src="./img/img.png" 
+                alt="ProfileImg"
+                data-testid="slackDisplayImage"
+            >
+        </div>
+        <div class="body-wrapper">
+            <p data-testid="slackUserName" id="user">
+                mhide.xx
+            </p>
+            <p id="my-track" data-testid="myTrack">Frontend Track</p>
+            <div class="timezone">
+                <h4 id="currentday" data-testid="currentDayOfTheWeek"></h4>
+                <h4 id="time" data-testid="currentUTCTime"></h4>
+            </div>
+          
+          <button>
+            <a
+              href="https://github.com/iam-ogomide"
+              data-testid="githubURL"
+              >GitHub</a
+            >
+          </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
